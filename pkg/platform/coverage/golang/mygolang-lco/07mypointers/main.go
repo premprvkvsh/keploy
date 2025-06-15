@@ -11,4 +11,6 @@ func main() {
 	fmt.Println("Value of pointer is ", ptr)
 	fmt.Println("Value of pointer is ", *ptr)
 
+	*ptr = *ptr + 2
+	fmt.Println("New value is: ", myNum)
 }
