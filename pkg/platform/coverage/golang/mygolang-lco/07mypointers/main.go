@@ -4,4 +4,11 @@ import "fmt"
 
 func main() {
 	fmt.Println("Welcome to a class on pointers")
+
+	myNum := 23
+	var ptr = &myNum
+
+	fmt.Println("Value of pointer is ", ptr)
+	fmt.Println("Value of pointer is ", *ptr)
+
 }
